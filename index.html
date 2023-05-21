@@ -35,10 +35,10 @@
                 <nav class="nav">
                     <ul class="nav-list wm-flex-row">
                             <li class="nav-item wm-link"><a href="index.html" name="Link to Home Page" class="nav-link">Home</a></li>
-                            <li class="nav-item wm-link"><a href="projects.html" name="Link to Projects Page" class="nav-link">Projects</a></li>
-                            <!-- <li class="nav-item wm-link"><a href="journal.html" name="Link to Journal Page" class="nav-link">Journal</a></li> -->
-                            <li class="nav-item wm-link"><a href="gallery.html" name="Link to Photos Page" class="nav-link">Photos</a></li>                            
-                            <li class="nav-item wm-link"><a rel="noopener" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" name="Link to Jokes Page" class="nav-link" target="_blank">Writing</a></li>
+                            <li class="nav-item wm-link"><a href="projects.html" name="Link to Projects Page" class="nav-link">Work</a></li>
+                            <li class="nav-item wm-link"><a href="gallery.html" name="Link to Photos Page" class="nav-link">Photos</a></li> 
+                            <li class="nav-item"><a rel="noopener" href="https://tracywai.substack.com/?utm_source=substack&utm_medium=web&utm_campaign=substack_profile" name="Link to substack" class="nav-link" target="_blank">Writing</a></li>
+                           
                     </ul>
                     <div class="burger">
                         <div class="line-1" id="line-1"></div>
@@ -63,8 +63,8 @@
         </div>
 
         <div class="landing-content wm-flex-column wm-flex-33">
-            <h1 class="title title-landing">Hi I'm Tracy!</h1>
-                <h2 class="subtitle subtitle-landing">Welcome to my humble abode.</h2>
+            <h1 class="title title-landing">Hi I'm Tracy!</h1><br>
+                <h2 class="subtitle subtitle-landing">Welcome to my humble abode</h2>
             <div class="intro-icons">
                 <ul class="wm-icon">
                     <li><a name="Link to LinkedIn" rel="noopener"href="https://www.linkedin.com/in/tracywai/"> <i class="fab fab-dark fa-linkedin"></i></a></li>                        
@@ -76,7 +76,7 @@
         <!-- About -->
         <section class="wm-section wm-flex-row" id="section-about">
             <div class="wm-flex-33 about-photo">
-                <img class="profile" data-lazy="img/me.jpeg" alt="A photo of Anson Yu">
+                <img class="profile" data-lazy="img/me.jpeg" alt="A photo of Tracy Wai">
             </div>
             <div class="wm-flex-66">
                 <h3 class="wm-section-title">About Me</h3>
@@ -91,11 +91,11 @@
                 If any of these tickle your fancy, feel free to reach out for a coffee chat— or my resume :) </p><br>
 
                 <div class="about-buttons wm-flex-row">
+                    <form action="/projects.html" method="get" target="_blank">
+                        <button class="wm-button" id="projects-and-work">Work</button>
+                    </form>
                     <form action="mailto:tracywai0318@gmail.com" target="_blank">
                         <button class="wm-button" id="resume" > Email</button>
-                    </form>
-                    <form action="https://www.notion.so/ansonyu/06ab447ff03645ef940a160f3e2e804e?v=1d0230d93c4c41b995dd77d3964bf9c0" method="get" target="_blank">
-                        <button class="wm-button" id="reading-list">Book List</button>
                     </form>
                     <form action="https://open.spotify.com/user/tracywai?si=07ae5dec2da547ae" method="get" target="_blank">
                         <button class="wm-button" id="reading-list">Spotify</button>
@@ -105,50 +105,54 @@
             </div>
         </section>
 
+        <section class="wm-section wm-flex-row">
+            <div class="wm-flex-90">
+                <h3 class="wm-section-title">Currently I am...</h3>
+                <ul class="section-text" style="line-height:124%" >
+                    <li > <strong> Mentoring first years and building community as a Residence Life Don</strong></li><br>
+                    <li > <strong> Sharing my student experiences as an Engineering Ambassador</strong></li><br>
+                    <li > <strong> Building on recruitment strategy and running events at UW Blueprint</strong></li><br>
+                    <li > <strong> Chasing the tail of my reading list!</strong></li>
+            </div>
+        </section>
+
         <!-- Projects -->
         <section class="wm-section" id="section-projects">
-            <h3 class="wm-section-title">What I've been up to...</h3>
+            <h3 class="wm-section-title">Some of my favourite reads...</h3>
 
-                <a name="Link to Medium article" rel="noopener" href="https://medium.com/getreflect/pixel-to-play-store-designing-reflect-cad98a08099a" class="card-link" target="_blank" >  
-                    
-                    <div class="wm-long-card wm-hover wm-flex-row " id="project-reflect">
-                        <img class="reframe" data-lazy="img/project-reflect.webp" alt="A photo of reflect">
+                    <div class="wm-long-card wm-hover wm-flex-row " id="wbba">
+                        <img class="reframe" src="img/reads/wbba.jpg" alt="cover of when breath becomes air">
                         <div class="wm-flex-column project-content">
-                            <h4>Designing a tool for digital health</h4>
+                            <h4>When Breath Becomes Air by Paul Kalanithi</h4>
                             <ul class="wm-hl">
-                                <li>User Research</li>
-                                <li>Prototyping</li>
-                                <li>Product Thinking</li>
+                                <li>Memoir</li>
                             </ul>
-                            <p>reflect is a digitally mindful chrome and firefox extension that encourages
-                                users to reflect on their relationship with technology.
+                            <p>Bawled my eyes out. Paul's beautifully written memoir on wha
                             </p>
                         </div>
                     </div>
                 </a>
-                <a name="Link to Everest" rel="noopener" href="https://devpost.com/software/everest-zn12sw" class="card-link" target="_blank" >  
+                <!--<a name="Link" rel="noopener" href="https://devpost.com/software/everest-zn12sw" class="card-link" target="_blank" >  -->
                     <div class="wm-long-card wm-hover wm-flex-row" id="project-everest">
-                        <img class="reframe" data-lazy="img/project-everest.webp" alt="A photo of Project 1">
+                        <img class="reframe" src="img/reads/inspired.jpg" alt="cover of inspired">
                         <div class="wm-flex-column project-content">
-                            <h4>Prototyping a gamified app for encouraging physical activity</h4>
+                            <h4>Inspired by Marty Cagan</h4>
                             <ul class="wm-hl">
-                                <li>Prototyping</li>
+                                <li>Product Management</li>
                                 <li>Product Thinking</li>
-                                <li>Branding</li>
                             </ul>
                             <p>Offset your scroll with a stroll! Everest is an app designed for kids that measures the distance scrolled on a given device and prompts users to walk to offset it.
                             </p>
                         </div>
                     </div>
                 </a>
-                <a name="Link to Policython" rel="noopener" href="https://policython.org" class="card-link" target="_blank" >  
+                <!--<a name="Link to Policython" rel="noopener" href="https://policython.org" class="card-link" target="_blank" >  -->
                     <div class="wm-long-card wm-hover wm-flex-row" id="project-policython">
-                        <img class="reframe" data-lazy="img/project-policython.webp" alt="A photo of Policython website">
+                        <img class="reframe" src="img/reads/tstwbf.jpg" alt="A photo of Policython website">
                         <div class="wm-flex-column project-content">
-                            <h4>Leading the design team to brand the first Policython</h4>
+                            <h4>They Said This Would Be Fun by Eternity Martis</h4>
                             <ul class="wm-hl">
-                                <li>Visual Design</li>
-                                <li>Branding</li>
+                                <li>Memoir</li>
                             </ul>
                             <p>Policy for the People is an international, Harvard-student led organization supporting students to draft policy proposals to today's most pressing issues. 
                             </p>
@@ -251,7 +255,7 @@
     <footer>
         <div class="wm-section">
             <div class="footer-content wm-flex-column"><br>
-            <h2>I'd love to meet you</h2><br>   
+            <h2>I'd love to meet you!</h2><br>   
             <div class="footer-icons">
                 <ul class="wm-icon" id="icons-light">
                     <li><a name="Link to LinkedIn" rel="noopener" href="https://www.linkedin.com/in/anson-y/"> <i class="fab fab-light fa-linkedin"></i></a></li>

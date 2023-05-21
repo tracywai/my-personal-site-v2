@@ -233,6 +233,10 @@ a.wm-a {
   flex: 0 0 66%;
 }
 
+.wm-flex-90 {
+  flex: 0 0 90%;
+}
+
 .wm-flex-centre {
   justify-content: center;
 }
