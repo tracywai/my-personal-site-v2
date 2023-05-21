@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Tracy's personal website. Student at the University of Waterloo studying Systems Design Engineering">
+
+        <!-- Tab Info -->
+        <title>Tracy Wai</title>
+        
+        <!-- Fonts -->
+        <link rel="preload" href="assets/abril.otf" as="style">
+        <link rel="preload" href="assets/inter.woff" as="stlye">
+
+        <!-- Stylesheets-->
+        <link rel="stylesheet" href="watermelon.css">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156275631-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-156275631-1');
+        </script>
+
+    </head>
+    <body> 
+        <header>
+            <div class="nav-bar">
+                <nav class="nav">
+                    <ul class="nav-list wm-flex-row">
+                            <li class="nav-item wm-link"><a href="index.html" name="Link to Home Page" class="nav-link">Home</a></li>
+                            <li class="nav-item wm-link"><a href="projects.html" name="Link to Projects Page" class="nav-link">Projects</a></li>
+                            <!-- <li class="nav-item wm-link"><a href="journal.html" name="Link to Journal Page" class="nav-link">Journal</a></li> -->
+                            <li class="nav-item wm-link"><a href="gallery.html" name="Link to Photos Page" class="nav-link">Photos</a></li>                            
+                            <li class="nav-item wm-link"><a rel="noopener" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" name="Link to Jokes Page" class="nav-link" target="_blank">Writing</a></li>
+                    </ul>
+                    <div class="burger">
+                        <div class="line-1" id="line-1"></div>
+                        <div class="line-2" id="line-2"></div>
+                        <div class="line-3" id="line-3"></div>
+                     </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Landing Page -->
+        <section class="landing">
+        <div class="parallax">
+            <img class="scene" id="landing-0" alt="A drawing of clouds as part of a landscape" src="assets\landing_0.webp">
+            <img class="scene" id="landing-1-left" alt="A drawing of foilage as part of a landscape" src="assets\landing_1_left.webp">
+            <img class="scene" id="landing-1-right" alt="A drawing of foilage as part of a landscape" src="assets\landing_1_right.webp">
+            <img class="scene" id="landing-2"  alt="A drawing of a girl standing on a cliff as part of a landscape" src="assets\landing_2.webp">
+            <img class="scene" id="landing-3" alt="A drawing of mountains as part of a landscape" src="assets\landing_3.webp">
+            <img class="scene" id="landing-4" alt="A drawing of mountains as part of a landscape" src="assets\landing_4.webp">
+            <img class="scene" id="landing-5" alt="A drawing of mountains as part of a landscape" src="assets\landing_5.webp">
+            <img class="scene" id="landing-6" alt="A drawing of mountains as part of a landscape" src="assets\landing_6.webp">
+        </div>
+
+        <div class="landing-content wm-flex-column wm-flex-33">
+            <h1 class="title title-landing">Hi I'm Tracy!</h1>
+                <h2 class="subtitle subtitle-landing">Welcome to my humble abode.</h2>
+            <div class="intro-icons">
+                <ul class="wm-icon">
+                    <li><a name="Link to LinkedIn" rel="noopener"href="https://www.linkedin.com/in/tracywai/"> <i class="fab fab-dark fa-linkedin"></i></a></li>                        
+                </ul>
+            </div>
+        </div>
+        </section>
+
+        <!-- About -->
+        <section class="wm-section wm-flex-row" id="section-about">
+            <div class="wm-flex-33 about-photo">
+                <img class="profile" data-lazy="img/me.jpeg" alt="A photo of Anson Yu">
+            </div>
+            <div class="wm-flex-66">
+                <h3 class="wm-section-title">About Me</h3>
+
+                <p class="section-text"><strong>I’m a student, early-career product manager, and possibly one of the biggest extroverts you'll meet.
+                    
+                </strong><br></br>
+                
+                Be it Systems Design Engineering @ UWaterloo or the occasional Wikipedia rabbithole, the world is vast and there is much to learn.
+                When I’m not knee deep in non-fiction, you can find me going on long walks or playing word games! I can also be found learning sign language, playing the viola, or diving into media on good urban design.<br></br>
+
+                If any of these tickle your fancy, feel free to reach out for a coffee chat— or my resume :) </p><br>
+
+                <div class="about-buttons wm-flex-row">
+                    <form action="mailto:tracywai0318@gmail.com" target="_blank">
+                        <button class="wm-button" id="resume" > Email</button>
+                    </form>
+                    <form action="https://www.notion.so/ansonyu/06ab447ff03645ef940a160f3e2e804e?v=1d0230d93c4c41b995dd77d3964bf9c0" method="get" target="_blank">
+                        <button class="wm-button" id="reading-list">Book List</button>
+                    </form>
+                    <form action="https://open.spotify.com/user/tracywai?si=07ae5dec2da547ae" method="get" target="_blank">
+                        <button class="wm-button" id="reading-list">Spotify</button>
+                    </form> 
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="wm-section" id="section-projects">
+            <h3 class="wm-section-title">What I've been up to...</h3>
+
+                <a name="Link to Medium article" rel="noopener" href="https://medium.com/getreflect/pixel-to-play-store-designing-reflect-cad98a08099a" class="card-link" target="_blank" >  
+                    
+                    <div class="wm-long-card wm-hover wm-flex-row " id="project-reflect">
+                        <img class="reframe" data-lazy="img/project-reflect.webp" alt="A photo of reflect">
+                        <div class="wm-flex-column project-content">
+                            <h4>Designing a tool for digital health</h4>
+                            <ul class="wm-hl">
+                                <li>User Research</li>
+                                <li>Prototyping</li>
+                                <li>Product Thinking</li>
+                            </ul>
+                            <p>reflect is a digitally mindful chrome and firefox extension that encourages
+                                users to reflect on their relationship with technology.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <a name="Link to Everest" rel="noopener" href="https://devpost.com/software/everest-zn12sw" class="card-link" target="_blank" >  
+                    <div class="wm-long-card wm-hover wm-flex-row" id="project-everest">
+                        <img class="reframe" data-lazy="img/project-everest.webp" alt="A photo of Project 1">
+                        <div class="wm-flex-column project-content">
+                            <h4>Prototyping a gamified app for encouraging physical activity</h4>
+                            <ul class="wm-hl">
+                                <li>Prototyping</li>
+                                <li>Product Thinking</li>
+                                <li>Branding</li>
+                            </ul>
+                            <p>Offset your scroll with a stroll! Everest is an app designed for kids that measures the distance scrolled on a given device and prompts users to walk to offset it.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <a name="Link to Policython" rel="noopener" href="https://policython.org" class="card-link" target="_blank" >  
+                    <div class="wm-long-card wm-hover wm-flex-row" id="project-policython">
+                        <img class="reframe" data-lazy="img/project-policython.webp" alt="A photo of Policython website">
+                        <div class="wm-flex-column project-content">
+                            <h4>Leading the design team to brand the first Policython</h4>
+                            <ul class="wm-hl">
+                                <li>Visual Design</li>
+                                <li>Branding</li>
+                            </ul>
+                            <p>Policy for the People is an international, Harvard-student led organization supporting students to draft policy proposals to today's most pressing issues. 
+                            </p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- fill in -->
+
+                <a name="No link" href="http://www.sfu.ca/fenv/news/a-hive-of-students-suit-up-to-protect-honeybees/" rel="noopener" class="card-link" target="_blank" > 
+                    <div class="wm-long-card wm-hover wm-flex-row" id="project-bee">
+                        <img class="reframe" data-lazy="img/project-bees.webp" alt="A photo of Beekeeping">
+                        <div class="wm-flex-column project-content">
+                            <h4>Starting a Beekeeping Club</h4>
+                            <ul class="wm-hl">
+                                <li>Community</li>
+                                <li>Environmental</li>
+                            </ul>
+                            <p>Working with neighbouring community partners and universities to start the 
+                                first beehive at my school. Currently, we are at 4 full hives.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <a name="Link to SDC Website" rel="noopener" href="https://www.humanityunmasked.org/stories/ansons-story" class="card-link" target="_blank" >  
+                    <div class="wm-long-card wm-hover wm-flex-row" id="project-covid">
+                        <img class="reframe" data-lazy="img/project-covid.jpg" alt="A photo of Project 1">
+                        <div class="wm-flex-column project-content">
+                            <h4>Leading the SDC COVID Relief Fund</h4>
+                            <ul class="wm-hl">
+                                <li>Community</li>
+                                <li>Project Management</li>
+                            </ul>
+                            <p>The SDC COVID-19 Relief Fund was a joint effort between 10 
+                                organizations to provide PPE to senior homes. In the end, 
+                                we were able to provide a total of 22,000 masks to 32 homes.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <a name="Link to DSDC Academy Website" rel="noopener" href="https://dsdc.ca/" class="card-link" target="_blank" >  
+                    <div class="wm-long-card wm-hover wm-flex-row" id="project-debate">
+                        <img class="reframe" data-lazy="img/project-debate.jpg" alt="A photo of a DSDC student">
+                        <div class="wm-flex-column project-content">
+                            <h4>Teaching debate at DSDC</h4>
+                            <ul class="wm-hl">
+                                <li>Debate</li>
+                                <li>Community</li>
+                            </ul>
+                            <p>Debate and Speech Development Community is an academy for young scholars with
+                                a focus on developing skills. Here, I've given workshops introducting AI, philisophy, food security, and more.     
+                            </p>
+                        </div>
+                    </div>
+                </a>
+
+        
+        </section>
+
+              <!-- Obsessions -->
+              <section class="wm-section" id="section-projects">
+                <h3 class="wm-section-title">What I'm currently obsessed with...</h3>
+    
+                <div class="wm-flex-row wm-flex-33" id="">
+                    <a name="Link to vlogbrothers channel" rel="noopener" href="https://www.youtube.com/user/vlogbrothers" class="card-link" target="_blank" >  
+                        <div class="wm-card wm-hover wm-flex-column" id="obsession-vlogbrothers">
+                            
+                            <h4>The vlogbrothers</h4>
+                        
+                            <p>My role models that I've never met. For 7 years, they've been a guiding light for choosing what to value, love, and act on. 
+                            </p>
+                        </div>
+                    </a>
+                    <a name="Link to precision farming article" rel="noopener" href="https://www.futurefarming.com/Tools-data/Articles/2019/5/Precision-farming-is-key-to-growing-better-crops-421886E/" class="card-link" target="_blank" >  
+                        <div class="wm-card wm-hover wm-flex-column" id="obsession-vlogbrothers">
+                            
+                            <h4>Precision farming</h4>
+                    
+                            <p>The underrated and overlooked tech sector that's quietly revolutionizing our food chains. 
+                            </p>
+                        </div>
+                    </a>
+                    <a name="Link to korean barley tea recipe" rel="noopener" href="https://mykoreankitchen.com/korean-barley-tea-boricha/" class="card-link" target="_blank" >  
+                        <div class="wm-card wm-hover wm-flex-column" >
+                            
+                            <h4>Korean barley tea</h4>
+                    
+                            <p>As someone that can absolutely not drink caffiene, korean barley tea is the rich, warm drink that I have been missing.
+                            </p>
+                        </div>
+                    </a>
+    
+                </div>
+            
+            </section>
+
+        </body>
+
+
+    <footer>
+        <div class="wm-section">
+            <div class="footer-content wm-flex-column"><br>
+            <h2>I'd love to meet you</h2><br>   
+            <div class="footer-icons">
+                <ul class="wm-icon" id="icons-light">
+                    <li><a name="Link to LinkedIn" rel="noopener" href="https://www.linkedin.com/in/anson-y/"> <i class="fab fab-light fa-linkedin"></i></a></li>
+                    <li><a name="Link to Facebook" rel="noopener" href="https://www.facebook.com/tracy.wai.982/"> <i class="fab fab-light fa-facebook-square"></i></a></li>
+
+                </ul>
+            </div>
+            <p>&copy; Tracy Wai 2023 </p>
+    </footer>
+
+    <!-- Main site JS File -->
+    <script src="main.js"></script>
+
+</html>
