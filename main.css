@@ -1,7 +1,7 @@
 /* General Styling*/
 @import "watermelon.css"; 
 
-@font-face { 
+/*@font-face { 
     font-family: Abril Display; 
     src: url('assets/abril.otf'); 
 } 
@@ -10,9 +10,11 @@
     font-family: Inter; 
     src: url('assets/inter.woff'); 
 } 
-
+*/
 html, body {
     overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
 }
 
 body{
@@ -20,30 +22,42 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-family: 'Inter', Tahoma, Geneva, Verdana, sans-serif;
+    /*font-family: 'Inter', Tahoma, Geneva, Verdana, sans-serif;*/
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
 }
 
 ul{
-    padding-inline-start: 0
+    padding-inline-start: 0.1;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16pt;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
 
 }
 
 h1, h2, h3 {
-    font-family: 'Abril Display';
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     color: var(--wm-colours-dark);
 }
 
 h3 {
-    font-size: 2.4rem;
+    font-size: 2.0rem;
     padding-bottom: 0.25rem;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
 }
 
 h4 {
-    font-size: 1.5rem;
+    font-size: 1.45rem;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 490;
+
 
 }
 
@@ -52,6 +66,8 @@ p {
     padding: 0;
     font-size: 1rem;
     letter-spacing: 0.01rem; 
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
   }
 
 .profile {
@@ -211,7 +227,10 @@ a:hover {
 /* Home - About */
 
 #section-about{
-    padding-top:5em
+    padding-top:5em;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
+
 }
 
 .about-photo img{
@@ -227,6 +246,8 @@ a:hover {
 h3 {
     font-size: 2.4rem;
     padding-bottom: 0.25rem;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
 }
 
 .card-link:hover{
@@ -273,6 +294,8 @@ h3 {
 
 footer {
     background-color: var(--wm-colours-dark);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
 }
 
 .footer-content {
@@ -280,6 +303,8 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
 } 
 
 .footer-content h2{
@@ -287,7 +312,9 @@ footer {
 }
 
 .footer-content p{
-    color: var(--wm-colours-light);
+    color: var(--wm-colours-light);    
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
     
 }
 
@@ -331,7 +358,7 @@ footer {
     }
 
     .nav {
-        z-index: 4
+        z-index: 4;
         
     }
 }
@@ -341,14 +368,19 @@ footer {
     /* General - Styling */
     body{
         overflow-x: hidden;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
     }
 
     p{
         color: black;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
     h4{
         color: var(--wm-colours-dark);
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
     }
 
     /* General - Navigation */
@@ -372,11 +404,15 @@ footer {
         width: 40%;
         transform: translateX(100%);
         transition: transform 0.5s ease;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
         
     }
 
     .nav-list li{
         color: var(--wm-colours-light);
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
     }
     
     .burger{
@@ -386,11 +422,11 @@ footer {
     .nav-item {
         color: var(--wm-colours-light);
         z-index: 4;
-    
-    }
+     }
 
     .nav-link {
-        color: var(--wm-colours-light)
+        color: var(--wm-colours-light);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     }
 
     a:link, a:visited{
